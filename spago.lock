@@ -6,20 +6,9 @@
         "core": {
           "dependencies": [
             {
-              "aff": ">=7.0.0 <8.0.0"
-            },
-            {
               "arrays": ">=7.0.0 <8.0.0"
             },
-            {
-              "console": ">=6.0.0 <7.0.0"
-            },
-            {
-              "control": ">=6.0.0 <7.0.0"
-            },
-            {
-              "effect": ">=4.0.0 <5.0.0"
-            },
+            "bifunctors",
             {
               "either": ">=6.0.0 <7.0.0"
             },
@@ -74,6 +63,7 @@
             {
               "typelevel-prelude": ">=7.0.0 <8.0.0"
             },
+            "unsafe-coerce",
             {
               "yoga-json": ">=5.0.0 <6.0.0"
             }
@@ -584,27 +574,6 @@
     "extra_packages": {}
   },
   "packages": {
-    "aff": {
-      "type": "registry",
-      "version": "7.1.0",
-      "integrity": "sha256-/nOpDQVnKIoP1pQ1ZZBYpadK0TuMlG4WwufGzJpsfD0=",
-      "dependencies": [
-        "control",
-        "datetime",
-        "effect",
-        "either",
-        "exceptions",
-        "functions",
-        "newtype",
-        "parallel",
-        "partial",
-        "prelude",
-        "st",
-        "tailrec",
-        "transformers",
-        "unsafe-coerce"
-      ]
-    },
     "arrays": {
       "type": "registry",
       "version": "7.3.0",
@@ -650,15 +619,6 @@
         "prelude",
         "tuples",
         "unfoldable"
-      ]
-    },
-    "console": {
-      "type": "registry",
-      "version": "6.1.0",
-      "integrity": "sha256-3T5PPz1mATZmV0C4GzkCkpLlCa5xG7u8ZNgnLrrrI1Q=",
-      "dependencies": [
-        "effect",
-        "prelude"
       ]
     },
     "const": {
@@ -1082,24 +1042,6 @@
       "dependencies": [
         "newtype",
         "prelude"
-      ]
-    },
-    "parallel": {
-      "type": "registry",
-      "version": "7.0.0",
-      "integrity": "sha256-bAGpVhrFz2IyHkA4MR7+tE/19FZ7dzYBdYPgK5svkqw=",
-      "dependencies": [
-        "control",
-        "effect",
-        "either",
-        "foldable-traversable",
-        "functors",
-        "maybe",
-        "newtype",
-        "prelude",
-        "profunctor",
-        "refs",
-        "transformers"
       ]
     },
     "partial": {

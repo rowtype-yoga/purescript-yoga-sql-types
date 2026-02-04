@@ -1,5 +1,5 @@
 workspace:
-  package_set:
+  packageSet:
     registry: 51.1.0
 
 package:
@@ -11,6 +11,8 @@ package:
       githubOwner: rowtype-yoga
       githubRepo: purescript-yoga-sql-types
   dependencies:
+    - bifunctors
+    - unsafe-coerce
     - aff: ">=7.0.0 <8.0.0"
     - arrays: ">=7.0.0 <8.0.0"
     - console: ">=6.0.0 <7.0.0"
