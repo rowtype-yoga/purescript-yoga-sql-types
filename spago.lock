@@ -6,14 +6,16 @@
         "core": {
           "dependencies": [
             {
-              "aff": ">=7.0.0 <8.0.0"
+              "aff": ">=7.1.0 <8.0.0"
             },
             {
-              "arrays": ">=7.0.0 <8.0.0"
+              "arrays": ">=7.3.0 <8.0.0"
             },
-            "bifunctors",
             {
-              "console": ">=6.0.0 <7.0.0"
+              "bifunctors": ">=6.0.0 <7.0.0"
+            },
+            {
+              "console": ">=6.1.0 <7.0.0"
             },
             {
               "control": ">=6.0.0 <7.0.0"
@@ -22,7 +24,7 @@
               "effect": ">=4.0.0 <5.0.0"
             },
             {
-              "either": ">=6.0.0 <7.0.0"
+              "either": ">=6.1.0 <7.0.0"
             },
             {
               "foldable-traversable": ">=6.0.0 <7.0.0"
@@ -31,7 +33,7 @@
               "foreign": ">=7.0.0 <8.0.0"
             },
             {
-              "foreign-object": ">=4.0.0 <5.0.0"
+              "foreign-object": ">=4.1.0 <5.0.0"
             },
             {
               "heterogeneous": ">=0.6.0 <0.7.0"
@@ -52,13 +54,13 @@
               "nullable": ">=6.0.0 <7.0.0"
             },
             {
-              "ordered-collections": ">=3.0.0 <4.0.0"
+              "ordered-collections": ">=3.2.0 <4.0.0"
             },
             {
               "partial": ">=4.0.0 <5.0.0"
             },
             {
-              "prelude": ">=6.0.0 <7.0.0"
+              "prelude": ">=6.0.1 <7.0.0"
             },
             {
               "record": ">=4.0.0 <5.0.0"
@@ -75,9 +77,11 @@
             {
               "typelevel-prelude": ">=7.0.0 <8.0.0"
             },
-            "unsafe-coerce",
             {
-              "yoga-json": ">=5.0.0 <6.0.0"
+              "unsafe-coerce": ">=6.0.0 <7.0.0"
+            },
+            {
+              "yoga-json": ">=5.1.0 <6.0.0"
             }
           ]
         },
